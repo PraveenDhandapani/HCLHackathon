@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
-import com.rbshcl.databreach.model.DataBreachDetails;
+import com.hackathon.rbs.model.DataBreachDetails;
 
 @Repository
 public interface DataBreachRepository extends JpaRepository<DataBreachDetails, Long>{

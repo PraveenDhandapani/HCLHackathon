@@ -5,9 +5,9 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.hackathon.rbs.model.DataBreachDetails;
 import com.hackathon.rbs.repository.DataBreachRepository;
 import com.hackathon.rbs.service.DataBreachService;
-import com.rbshcl.databreach.model.DataBreachDetails;
 
 @Service
 public class DataBreachServiceImpl implements DataBreachService{

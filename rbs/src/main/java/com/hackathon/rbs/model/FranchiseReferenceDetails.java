@@ -5,8 +5,6 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import com.rbshcl.databreach.model.AuditEntity;
-
 @Entity
 @Table(name="FRNCHS_RFRNC")
 public class FranchiseReferenceDetails extends AuditEntity {

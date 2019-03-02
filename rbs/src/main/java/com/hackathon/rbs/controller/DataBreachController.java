@@ -1,4 +1,4 @@
-package com.rbshcl.databreach.controller;
+package com.hackathon.rbs.controller;
 
 import java.util.List;
 
@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.hackathon.rbs.model.DataBreachDetails;
 import com.hackathon.rbs.repository.DataBreachRepository;
 import com.hackathon.rbs.service.DataBreachService;
-import com.rbshcl.databreach.model.DataBreachDetails;
 
 @Controller
 public class DataBreachController {

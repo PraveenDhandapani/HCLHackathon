@@ -2,7 +2,7 @@ package com.hackathon.rbs.service;
 
 import java.util.List;
 
-import com.rbshcl.databreach.model.DataBreachDetails;
+import com.hackathon.rbs.model.DataBreachDetails;
 
 public interface DataBreachService {
 
