@@ -8,12 +8,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 import com.rbshcl.databreach.model.DataBreachDetails;
 import com.rbshcl.databreach.repository.DataBreachRepository;
+import com.rbshcl.databreach.service.DataBreachService;
 
 @Controller
 public class DataBreachController {
 
 	@Autowired
 	DataBreachRepository repo;
+	
+	@Autowired
+	DataBreachService service;
 	
 	@GetMapping("/data-breach-details")
 	public List<DataBreachDetails> getAllDetails()
@@ -24,6 +28,6 @@ public class DataBreachController {
 	
 	@GetMapping("/{riskProfile}/data-breach-details") 
 	public List<DataBreachDetails> getDataBreachDetailsByRisk(String riskProfile) {
-		return repo.getAllDataBreachesByRisk(riskProfile);
+		return service.getAllDataBreachDetailsByRisk(riskProfile);
 	}
 }
