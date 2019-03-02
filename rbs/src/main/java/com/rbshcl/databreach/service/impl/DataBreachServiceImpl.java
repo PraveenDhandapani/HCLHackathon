@@ -19,4 +19,8 @@ public class DataBreachServiceImpl implements DataBreachService{
 		return repo.getAllDataBreachesByRisk(riskProfile);
 	}
 	
+	public DataBreachDetails saveDataBreachDetails(DataBreachDetails breachDetails) {
+		return repo.saveAndFlush(breachDetails);
+	}
+	
 }

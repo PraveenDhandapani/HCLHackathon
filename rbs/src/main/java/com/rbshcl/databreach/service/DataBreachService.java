@@ -6,6 +6,7 @@ import com.rbshcl.databreach.model.DataBreachDetails;
 
 public interface DataBreachService {
 
-	List<DataBreachDetails> getAllDataBreachDetailsByRisk(String riskProfile);
+	public List<DataBreachDetails> getAllDataBreachDetailsByRisk(String riskProfile);
 	
+	public DataBreachDetails saveDataBreachDetails(DataBreachDetails breachDetails);
 }
