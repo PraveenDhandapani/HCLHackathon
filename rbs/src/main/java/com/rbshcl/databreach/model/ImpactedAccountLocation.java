@@ -4,7 +4,7 @@ import javax.persistence.Entity;
 
 
 @Entity
-public class ImpactedAccountLocation {
+public class ImpactedAccountLocation extends AuditEntity {
 
 	private Long dataBreachId;
 	

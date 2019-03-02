@@ -3,7 +3,7 @@ package com.rbshcl.databreach.model;
 import javax.persistence.Entity;
 
 @Entity
-public class ContactDetails {
+public class ContactDetails extends AuditEntity {
 	
 	private String fullName;
 	

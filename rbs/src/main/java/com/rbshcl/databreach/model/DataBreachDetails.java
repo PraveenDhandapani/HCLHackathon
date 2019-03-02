@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 
 @Entity
-public class DataBreachDetails implements Serializable{
+public class DataBreachDetails  extends AuditEntity implements Serializable{
 
 	/**
 	 * 
