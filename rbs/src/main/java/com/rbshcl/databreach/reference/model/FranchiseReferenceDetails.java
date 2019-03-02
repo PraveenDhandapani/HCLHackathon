@@ -2,6 +2,7 @@ package com.rbshcl.databreach.reference.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 
 import com.rbshcl.databreach.model.AuditEntity;
@@ -26,6 +27,7 @@ public class FranchiseReferenceDetails extends AuditEntity {
 		this.franchiseName = franchiseName;
 	}
 
+	@Id
 	@Column(name="FRNCHS_ID")
 	private Long id;
 	
