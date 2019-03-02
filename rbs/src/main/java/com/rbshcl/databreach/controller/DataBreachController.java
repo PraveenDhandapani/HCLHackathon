@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import com.hackathon.rbs.repository.DataBreachRepository;
+import com.hackathon.rbs.service.DataBreachService;
 import com.rbshcl.databreach.model.DataBreachDetails;
-import com.rbshcl.databreach.repository.DataBreachRepository;
-import com.rbshcl.databreach.service.DataBreachService;
 
 @Controller
 public class DataBreachController {

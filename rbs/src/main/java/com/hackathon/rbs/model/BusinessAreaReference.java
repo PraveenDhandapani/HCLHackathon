@@ -1,4 +1,4 @@
-package com.rbshcl.databreach.reference.model;
+package com.hackathon.rbs.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

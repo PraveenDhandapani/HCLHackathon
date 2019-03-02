@@ -1,4 +1,4 @@
-package com.rbshcl.databreach.repository;
+package com.hackathon.rbs.repository;
 
 import java.util.List;
 
