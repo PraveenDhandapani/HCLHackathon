@@ -1,9 +1,13 @@
 package com.hackathon.rbs.model;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Entity
-public class ContactDetails extends AuditEntity {
+public class ContactDetails{
+	
+	@Id
+	private Long id;
 	
 	private String fullName;
 	

@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="BSNSS_AREA_RFRNC")
-public class BusinessAreaReference extends AuditEntity {
+public class BusinessAreaReference {
 
 	@Id
 	@Column(name="BSNSS_AREA_ID")

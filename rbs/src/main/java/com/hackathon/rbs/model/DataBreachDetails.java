@@ -8,12 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.SequenceGenerator;
 
 @Entity
-public class DataBreachDetails  extends AuditEntity implements Serializable{
-
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = -5303708023463341877L;
+public class DataBreachDetails{
 
 	@SequenceGenerator(name="SEQ",sequenceName="breachId",allocationSize=1)
 	@GeneratedValue(generator="SEQ")

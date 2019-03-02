@@ -7,7 +7,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name="FRNCHS_RFRNC")
-public class FranchiseReferenceDetails extends AuditEntity {
+public class FranchiseReferenceDetails {
 
 	public Long getId() {
 		return id;

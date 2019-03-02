@@ -1,11 +1,12 @@
 package com.hackathon.rbs.model;
 
 import javax.persistence.Entity;
-
+import javax.persistence.Id;
 
 @Entity
-public class ImpactedAccountLocation extends AuditEntity {
+public class ImpactedAccountLocation {
 
+	@Id
 	private Long dataBreachId;
 	
 	private String location;
